@@ -9,9 +9,9 @@ CREATE TABLE IF NOT EXISTS score (
 ) <br>
 l'application permettra d'insérer les temps et des lire de facon asynchrone <br>
 la communication avec la base de données est possible grace au langage php qui fonctionne coté serveur <br> 
-en local host il vous faut installer ce serveur (exemple  wamp) 
+en local il vous faut installer ce serveur (exemple  wamp) 
 et  le démarrer http://localhost:8080/ <br>
-au niveau des outils: <br>
-- phpmyadmin permet de créer la base et la table <br>
+au niveau des outils furnis par wamp: <br>
+- phpmyadmin permet de créer la base et la table tester votre table dans la console sql avec <br>
 - ajouter un virtual host permet de lier votre projet sur c: avec le www de wamp
 
