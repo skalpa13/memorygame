@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Memory game</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+<link href="memory.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+
+<body>
+<!-- plateau de jeu  -->
+<section class='container flex' id='mainsection'>
+	
+<!-- index.js genere les elements pour la page html
+	<div class='card'>
+		<div class='inner' value="0">
+			<p class='front'>&#10068;</p>
+			<p class='back back1'></p>
+		</div>
+	</div>
+	<div class='card'>
+		<div class='inner' value="1">
+			<p class='front'>&#10068;</p>
+			<p class='back back2'></p>
+		</div>
+	</div>
+	
+ -->
+</section>
+
+<div class='container bottom'>
+	<div>
+		Time : <input type="text" name="chronotime" id="chronotime" ></input>
+	</div>
+	<div>
+	    Best Time (secs): <br> <span id="spanForScores">  </span>
+	</div>
+</div>
+
+
+
+
+<!--  écran de résultat fenêtre modale -->
+<div id="resultats" class="modal">
+	<div class="modal-content">
+		<span class="close">x</span>
+		
+		<p></p>
+	    
+		<button type="button" id="rejouer"> Try again </button>
+	</div>
+</div>
+
+<br>
+    <script src="js/index.js"></script> 
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="js/card.js"></script>
+  <script type="text/javascript" src="js/vue.js"></script>
+  <script type="text/javascript" src="js/fctsAjax.js"></script>
+  <script type="text/javascript" src="js/chrono.js"></script>
+  
+
+  
+</body>
+</html>
