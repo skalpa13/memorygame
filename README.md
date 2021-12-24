@@ -1,4 +1,6 @@
 # memorygame 
+vous pouvez tester l'application en ligne sur: https://acosparla.alwaysdata.net/memorygame/ <br>
+sinon pour un deploiemen en local ou sur votre propre serveur <br>
 ranger les fichiers js dans un dossier js <br>
 
 nom de la base : memorygame <br>
