@@ -26,7 +26,7 @@
 	 
     // prepare les cartes  jeu 
 	function start() {
-		//shuffle(cardsArray);//à commenter pour coder gestion des temps en fin de jeu
+		shuffle(cardsArray);//à commenter pour coder gestion des temps en fin de jeu
 		assignCards();
 		//add event click sur les cartes --> appel de la fct flippedCard sur un clik 
 		innerCards.forEach(card => card.addEventListener("click", flippedCards));
