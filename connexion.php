@@ -9,7 +9,7 @@ function bdd_connect() {
 */	
     $dsn = 'mysql:dbname=acosparla_memorygame;host=mysql-acosparla.alwaysdata.net';
     $user = 'acosparla';
-    $password = 'marseille';
+    $password = 'Skalpa@66';
 
 	try {
     	$bdd = new PDO($dsn, $user);
@@ -28,3 +28,4 @@ function bdd_connect() {
 ?>
 
  
+
