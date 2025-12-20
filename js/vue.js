@@ -15,8 +15,8 @@
 	
 	chronotime = document.getElementById('chronotime');
     b_chronoStart = false;
-	min = 2;
-	sec = 0;
+	min = 1;
+	sec = 30;
 	m = min; s = sec;//m et s sont utilisées dans chrono.js
 	document.getElementById('chronotime').value ="0" + m + ":" + "0"+ s;//affiche 02:00
 
@@ -80,4 +80,5 @@
 	}
   
   
+
   
