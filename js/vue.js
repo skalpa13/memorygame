@@ -72,7 +72,7 @@
 		NbPairFound = 0;
 		innerCards.forEach(card => card.classList.remove("flipped"));
 		b_chronoStart = false;
-    	min = 2;
+    	min = 1;
     	sec = 0;
 		m = min; s = sec;
 		document.getElementById('chronotime').value ="0" + m + ":" + "0"+ s;//affiche 02:00
@@ -82,3 +82,4 @@
   
 
   
+
