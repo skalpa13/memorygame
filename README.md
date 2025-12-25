@@ -4,7 +4,7 @@ Sinon pour un déploiement en local ou sur votre propre serveur: <br>
 - Ranger les fichiers .js dans un dossier js <br>
 - Créer une base de données
   nom de la base : memorygame <br>
-- Créer une table score avec un seul champ  nommé time de type int: <br>
+- Créer une table score avec un seul champ  nommé time de type int: 
    CREATE TABLE IF NOT EXISTS score (
     time int NOT NULL
   ) <br>
