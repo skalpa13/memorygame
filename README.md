@@ -12,7 +12,8 @@ L'application permettra d'insérer les temps et des lire de facon asynchrone <br
 La communication avec la base de données est possible grace au langage php qui fonctionne coté serveur. <br> 
 Outils: 
 En local il vous faut installer un serveur apache comme Wamp et  le démarrer http://localhost:8080/ <br>
-Au niveau des outils fournis par wamp: <br>
-- phpmyadmin permet de créer la base et la table conseil tester votre table dans la console sql select, insert  <br>
-- ajouter un virtual host permet de lier l'emplacement de votre projet avec le www de wamp (côté serveur)
+Wamp fournit <br>
+- phpmyadmin pour créer la base et la table    <br>
+- ajouter un virtual host permet de lier l'emplacement de votre projet avec le www de Wamp (côté serveur)
+- conseil tester les requêtes S.Q.L select, insert directement dans la console S.Q.L de Wamp avant de les insérer dans votre programme  
 
