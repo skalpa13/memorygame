@@ -8,7 +8,7 @@ Sinon pour un déploiement en local ou sur votre propre serveur: <br>
    CREATE TABLE IF NOT EXISTS score (
     time int NOT NULL
   ) <br>
-L'application permettra d'insérer les temps et des lire de facon asynchrone <br>
+Cela permettra à l'application d'insérer les temps et des lire de facon asynchrone <br>
 La communication avec la base de données est possible grace au langage php qui fonctionne coté serveur. <br> 
 Outils: 
 En local il vous faut installer un serveur apache comme Wamp et  le démarrer http://localhost:8080/ <br>
